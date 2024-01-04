@@ -13,9 +13,6 @@ RUN npm install
 # Salin semua file ke dalam container
 COPY . .
 
-# Jalankan perintah build untuk aplikasi Vue.js
-RUN npm run build
-
 # Port yang akan digunakan oleh aplikasi Vue.js
 EXPOSE 3000
 
